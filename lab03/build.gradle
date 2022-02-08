@@ -46,3 +46,14 @@ application {
 	mainClass = 'csci2020u.lab03.CSVDemo'
 }
 
+version = '1.0'
+mainClassName = 'csci2020u.lab03.CSVDemo'
+
+jar {
+	manifest{
+		attributes( 'Main-Class': mainClassName,
+					'Implementation-Title': 'Lab03',
+					'Implementation-Version': version)
+	}
+}
+
