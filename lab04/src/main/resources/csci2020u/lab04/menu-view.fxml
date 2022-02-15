@@ -30,7 +30,7 @@
     <Label fx:id="response" GridPane.columnIndex="2" GridPane.rowIndex="3"/>
 
     <Text text="Phone #:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
-    <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="phone"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="phone" onAction="#onPhoneAction"/>
 
     <Text text="Date of Birth:" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
     <DatePicker GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="dob"/>
