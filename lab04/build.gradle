@@ -22,7 +22,7 @@ dependencies {
 jar {
     manifest{
         attributes 'Main-Class': mainClassName,
-                'Implementation-Title': 'Lab03',
+                'Implementation-Title': 'Lab04',
                 'Implementation-Version': version
     }
 }
