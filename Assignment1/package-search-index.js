@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ca.bungo"},{"l":"ca.bungo.templates"},{"l":"ca.bungo.templates.PaymentMethods"}];updateSearchResults();
