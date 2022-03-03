@@ -15,7 +15,7 @@ public class AccountBalance extends PaymentMethod {
 
     @Override
     public boolean isPurchaseValid(int information) {
-        return information == 1; //In this case a value of -1 will mean the CreditCard purchase is valid
+        return information == 1; //In this case a value of 1 will mean the Account Balance purchase is valid
     }
 
     @Override

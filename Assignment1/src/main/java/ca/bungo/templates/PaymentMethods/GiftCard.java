@@ -21,7 +21,7 @@ public class GiftCard extends PaymentMethod {
 
     @Override
     protected boolean isPurchaseValid(int information) {
-        return information == 3; //In this case a value of -1 will mean the CreditCard purchase is valid
+        return information == 3; //In this case a value of 3 will mean the GiftCard purchase is valid
     }
 
     @Override

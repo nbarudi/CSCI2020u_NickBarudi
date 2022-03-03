@@ -25,7 +25,7 @@ public class CreditCard extends PaymentMethod {
 
     @Override
     protected boolean isPurchaseValid(int information) {
-        return information == 0; //In this case a value of -1 will mean the CreditCard purchase is valid
+        return information == 0; //In this case a value of 0 will mean the CreditCard purchase is valid
     }
 
     @Override

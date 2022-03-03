@@ -25,7 +25,7 @@ public class DebitCard extends PaymentMethod {
 
     @Override
     protected boolean isPurchaseValid(int information) {
-        return information == 2; //In this case a value of 1 will mean the DebitCard purchase is valid
+        return information == 2; //In this case a value of 2 will mean the DebitCard purchase is valid
     }
 
     @Override
