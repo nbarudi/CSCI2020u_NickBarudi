@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="220.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.bungo.client.client.ClientController">
+   <children>
+      <Label layoutX="16.0" layoutY="64.0" text="Username:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="20.0" layoutY="101.0" text="Message:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="98.0" layoutY="62.0" fx:id="usernameField"/>
+      <TextField layoutX="98.0" layoutY="99.0" prefHeight="25.0" prefWidth="340.0" fx:id="messageField"/>
+      <Button layoutX="20.0" layoutY="155.0" mnemonicParsing="false" text="Send" onAction="#sendMessage"/>
+      <Button layoutX="395.0" layoutY="155.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="43.0" text="Exit" onAction="#exitClient"/>
+      <Label layoutX="185.0" layoutY="24.0" text="DISCONNECTED" textFill="RED" fx:id="serverStatus"/>
+   </children>
+</AnchorPane>
